@@ -1,0 +1,12 @@
+mutation AddPersonToCourse2( $course: ID!, $person: ID!){
+  addPeople(courseID: $course, personID: $person){
+    _id
+    title
+  }
+}
+
+# Variables
+{
+  "course": "5d2ddf62fc04efc6cacebdad",
+  "person": "5d2e1473683ade5e42a9741d"
+}
